@@ -8,3 +8,5 @@
 /test-web-annotation-rpc/target/
 /test-web-annotation-service/target/
 /test-web-annotation-web/target/
+.idea
+*.iml
