@@ -1,0 +1,10 @@
+# Project exclude paths
+/test-web-annotation-common/target/
+/test-web-annotation-dao/target/
+/test-web-annotation-domain/target/
+/test-web-annotation-export/target/
+/test-web-annotation-facade/target/
+/test-web-annotation-manage/target/
+/test-web-annotation-rpc/target/
+/test-web-annotation-service/target/
+/test-web-annotation-web/target/
