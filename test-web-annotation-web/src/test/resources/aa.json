@@ -1,0 +1,828 @@
+{
+  "code": "0000",
+  "data": {
+    "query": {
+      "auditResultStatus": 4,
+      "channelId": 4,
+      "doctorName": "",
+      "pageNo": 1,
+      "pageSize": 10,
+      "patientName": "",
+      "selectedDepartments": []
+    },
+    "departments": [
+      {
+        "departId": -1,
+        "departLevel": 1,
+        "departName": "全部",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          }
+        ]
+      },
+      {
+        "departId": 33,
+        "departLevel": 1,
+        "departName": "内科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300073,
+            "departLevel": 2,
+            "departName": "心血管内科"
+          },
+          {
+            "departId": 7300074,
+            "departLevel": 2,
+            "departName": "神经内科"
+          },
+          {
+            "departId": 7300072,
+            "departLevel": 2,
+            "departName": "呼吸内科"
+          },
+          {
+            "departId": 7300078,
+            "departLevel": 2,
+            "departName": "内分泌科"
+          },
+          {
+            "departId": 7300076,
+            "departLevel": 2,
+            "departName": "肾病内科"
+          },
+          {
+            "departId": 7300075,
+            "departLevel": 2,
+            "departName": "消化内科"
+          },
+          {
+            "departId": 7300077,
+            "departLevel": 2,
+            "departName": "血液科"
+          },
+          {
+            "departId": 7300079,
+            "departLevel": 2,
+            "departName": "风湿免疫科"
+          },
+          {
+            "departId": 7300080,
+            "departLevel": 2,
+            "departName": "老年病科"
+          }
+        ]
+      },
+      {
+        "departId": 34,
+        "departLevel": 1,
+        "departName": "男科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300070,
+            "departLevel": 2,
+            "departName": "男科"
+          },
+          {
+            "departId": 7300071,
+            "departLevel": 2,
+            "departName": "中医男科"
+          }
+        ]
+      },
+      {
+        "departId": 6,
+        "departLevel": 1,
+        "departName": "妇产科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300084,
+            "departLevel": 2,
+            "departName": "妇科"
+          },
+          {
+            "departId": 7300085,
+            "departLevel": 2,
+            "departName": "产科"
+          },
+          {
+            "departId": 7300086,
+            "departLevel": 2,
+            "departName": "辅助生殖科"
+          }
+        ]
+      },
+      {
+        "departId": 4,
+        "departLevel": 1,
+        "departName": "皮肤性病科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300035,
+            "departLevel": 2,
+            "departName": "皮肤科"
+          },
+          {
+            "departId": 7300036,
+            "departLevel": 2,
+            "departName": "性病科"
+          }
+        ]
+      },
+      {
+        "departId": 5,
+        "departLevel": 1,
+        "departName": "儿科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300016,
+            "departLevel": 2,
+            "departName": "小儿内科"
+          },
+          {
+            "departId": 7300023,
+            "departLevel": 2,
+            "departName": "小儿皮肤科"
+          },
+          {
+            "departId": 7300015,
+            "departLevel": 2,
+            "departName": "新生儿科"
+          },
+          {
+            "departId": 7300019,
+            "departLevel": 2,
+            "departName": "小儿保健科"
+          },
+          {
+            "departId": 7300018,
+            "departLevel": 2,
+            "departName": "小儿血液科"
+          },
+          {
+            "departId": 7300021,
+            "departLevel": 2,
+            "departName": "小儿眼科"
+          },
+          {
+            "departId": 7300020,
+            "departLevel": 2,
+            "departName": "小儿耳鼻喉科"
+          },
+          {
+            "departId": 7300017,
+            "departLevel": 2,
+            "departName": "小儿外科"
+          },
+          {
+            "departId": 7300022,
+            "departLevel": 2,
+            "departName": "小儿康复科"
+          }
+        ]
+      },
+      {
+        "departId": 69,
+        "departLevel": 1,
+        "departName": "精神心理科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300088,
+            "departLevel": 2,
+            "departName": "心理咨询科"
+          },
+          {
+            "departId": 7300087,
+            "departLevel": 2,
+            "departName": "精神科"
+          }
+        ]
+      },
+      {
+        "departId": 3,
+        "departLevel": 1,
+        "departName": "外科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300026,
+            "departLevel": 2,
+            "departName": "普外科"
+          },
+          {
+            "departId": 7300032,
+            "departLevel": 2,
+            "departName": "肛肠科"
+          },
+          {
+            "departId": 7300024,
+            "departLevel": 2,
+            "departName": "肝胆外科"
+          },
+          {
+            "departId": 7300025,
+            "departLevel": 2,
+            "departName": "泌尿外科"
+          },
+          {
+            "departId": 7300027,
+            "departLevel": 2,
+            "departName": "神经外科"
+          },
+          {
+            "departId": 7300029,
+            "departLevel": 2,
+            "departName": "胸外科"
+          },
+          {
+            "departId": 7300030,
+            "departLevel": 2,
+            "departName": "乳腺外科"
+          },
+          {
+            "departId": 7300033,
+            "departLevel": 2,
+            "departName": "甲状腺外科"
+          },
+          {
+            "departId": 7300028,
+            "departLevel": 2,
+            "departName": "心血管外科"
+          },
+          {
+            "departId": 7300034,
+            "departLevel": 2,
+            "departName": "烧伤科"
+          },
+          {
+            "departId": 7300031,
+            "departLevel": 2,
+            "departName": "血管外科"
+          }
+        ]
+      },
+      {
+        "departId": 7,
+        "departLevel": 1,
+        "departName": "耳鼻喉头颈外科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300046,
+            "departLevel": 2,
+            "departName": "耳鼻喉科"
+          },
+          {
+            "departId": 7300047,
+            "departLevel": 2,
+            "departName": "头颈外科"
+          }
+        ]
+      },
+      {
+        "departId": 13,
+        "departLevel": 1,
+        "departName": "中医科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300037,
+            "departLevel": 2,
+            "departName": "中医内科"
+          },
+          {
+            "departId": 7300039,
+            "departLevel": 2,
+            "departName": "中医妇科"
+          },
+          {
+            "departId": 7300042,
+            "departLevel": 2,
+            "departName": "针灸推拿科"
+          },
+          {
+            "departId": 7300041,
+            "departLevel": 2,
+            "departName": "中医儿科"
+          },
+          {
+            "departId": 7300043,
+            "departLevel": 2,
+            "departName": "中医皮肤科"
+          },
+          {
+            "departId": 7300044,
+            "departLevel": 2,
+            "departName": "中医肿瘤科"
+          },
+          {
+            "departId": 7300040,
+            "departLevel": 2,
+            "departName": "中医骨科"
+          },
+          {
+            "departId": 7300038,
+            "departLevel": 2,
+            "departName": "中医眼科"
+          },
+          {
+            "departId": 7300045,
+            "departLevel": 2,
+            "departName": "中西医结合科"
+          }
+        ]
+      },
+      {
+        "departId": 11,
+        "departLevel": 1,
+        "departName": "骨科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300089,
+            "departLevel": 2,
+            "departName": "关节科"
+          },
+          {
+            "departId": 7300090,
+            "departLevel": 2,
+            "departName": "脊柱科"
+          },
+          {
+            "departId": 7300091,
+            "departLevel": 2,
+            "departName": "创伤科"
+          }
+        ]
+      },
+      {
+        "departId": 2,
+        "departLevel": 1,
+        "departName": "眼科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300052,
+            "departLevel": 2,
+            "departName": "视光中心"
+          },
+          {
+            "departId": 7300051,
+            "departLevel": 2,
+            "departName": "白内障科"
+          },
+          {
+            "departId": 7300049,
+            "departLevel": 2,
+            "departName": "青光眼科"
+          },
+          {
+            "departId": 7300048,
+            "departLevel": 2,
+            "departName": "眼底科"
+          },
+          {
+            "departId": 7300050,
+            "departLevel": 2,
+            "departName": "眼外伤科"
+          },
+          {
+            "departId": 7300053,
+            "departLevel": 2,
+            "departName": "眼整形科"
+          }
+        ]
+      },
+      {
+        "departId": 12,
+        "departLevel": 1,
+        "departName": "肿瘤科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300081,
+            "departLevel": 2,
+            "departName": "肿瘤内科"
+          },
+          {
+            "departId": 7300082,
+            "departLevel": 2,
+            "departName": "肿瘤外科"
+          },
+          {
+            "departId": 7300083,
+            "departLevel": 2,
+            "departName": "介入与放疗中心"
+          }
+        ]
+      },
+      {
+        "departId": 68,
+        "departLevel": 1,
+        "departName": "口腔科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300059,
+            "departLevel": 2,
+            "departName": "牙周科"
+          },
+          {
+            "departId": 7300061,
+            "departLevel": 2,
+            "departName": "儿童口腔科"
+          },
+          {
+            "departId": 7300060,
+            "departLevel": 2,
+            "departName": "口腔黏膜科"
+          },
+          {
+            "departId": 7300055,
+            "departLevel": 2,
+            "departName": "口腔修复科"
+          },
+          {
+            "departId": 7300056,
+            "departLevel": 2,
+            "departName": "正畸科"
+          },
+          {
+            "departId": 7300058,
+            "departLevel": 2,
+            "departName": "牙体牙髓科"
+          },
+          {
+            "departId": 7300054,
+            "departLevel": 2,
+            "departName": "颌面外科"
+          },
+          {
+            "departId": 7300057,
+            "departLevel": 2,
+            "departName": "种植科"
+          }
+        ]
+      },
+      {
+        "departId": 7300097,
+        "departLevel": 1,
+        "departName": "整形美容科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300098,
+            "departLevel": 2,
+            "departName": "整形外科"
+          },
+          {
+            "departId": 7300099,
+            "departLevel": 2,
+            "departName": "皮肤美容科"
+          }
+        ]
+      },
+      {
+        "departId": 7300094,
+        "departLevel": 1,
+        "departName": "报告解读科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300095,
+            "departLevel": 2,
+            "departName": "医学影像科"
+          },
+          {
+            "departId": 7300096,
+            "departLevel": 2,
+            "departName": "病理科"
+          }
+        ]
+      },
+      {
+        "departId": 35,
+        "departLevel": 1,
+        "departName": "其他科",
+        "departmentWithLevelVOList": [
+          {
+            "departId": -1,
+            "departLevel": 2,
+            "departName": "全部"
+          },
+          {
+            "departId": 7300062,
+            "departLevel": 2,
+            "departName": "感染科"
+          },
+          {
+            "departId": 7300063,
+            "departLevel": 2,
+            "departName": "营养科"
+          },
+          {
+            "departId": 7300064,
+            "departLevel": 2,
+            "departName": "结核病科"
+          },
+          {
+            "departId": 7300065,
+            "departLevel": 2,
+            "departName": "高压氧科"
+          },
+          {
+            "departId": 7300066,
+            "departLevel": 2,
+            "departName": "康复科"
+          },
+          {
+            "departId": 7300067,
+            "departLevel": 2,
+            "departName": "麻醉疼痛科"
+          },
+          {
+            "departId": 7300068,
+            "departLevel": 2,
+            "departName": "运动医学科"
+          },
+          {
+            "departId": 7300069,
+            "departLevel": 2,
+            "departName": "职业地方病科"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "data": [
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300046,
+          "departmentName": "耳鼻喉科",
+          "diagFinishTime": "2020-01-22 23:20:23",
+          "diagId": 2096530993492,
+          "diagType": "极速问诊",
+          "doctorId": 244610733201,
+          "doctorName": "张作勇",
+          "doctorPin": "jd_EHHNtlNCoKvv",
+          "firstReplyTime": "00 分钟 34 秒",
+          "id": 41106,
+          "modified": "2020-01-23 11:46:06",
+          "patientName": "李媛",
+          "patientPin": "jd_478a3312307f9",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300016,
+          "departmentName": "小儿内科",
+          "diagFinishTime": "2020-01-22 23:04:03",
+          "diagId": 2096530991652,
+          "diagType": "极速问诊",
+          "doctorId": 224910594575,
+          "doctorName": "李月兰",
+          "doctorPin": "jd_pstJzeapJWoy",
+          "firstReplyTime": "00 分钟 05 秒",
+          "id": 40886,
+          "modified": "2020-01-23 11:37:50",
+          "patientName": "刘麟",
+          "patientPin": "13404055756_p",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300072,
+          "departmentName": "呼吸内科",
+          "diagFinishTime": "2020-01-22 22:37:37",
+          "diagId": 2096531003585,
+          "diagType": "极速问诊",
+          "doctorId": 172610072011,
+          "doctorName": "高辉",
+          "doctorPin": "jd_56b8770d543c2",
+          "firstReplyTime": "00 分钟 07 秒",
+          "id": 40845,
+          "modified": "2020-01-23 11:38:35",
+          "patientName": "钟荣桔",
+          "patientPin": "zjuzzuibang",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300046,
+          "departmentName": "耳鼻喉科",
+          "diagFinishTime": "2020-01-22 22:23:02",
+          "diagId": 2096530990152,
+          "diagType": "极速问诊",
+          "doctorId": 229210596802,
+          "doctorName": "孟繁田",
+          "doctorPin": "jd_hBRcFSDJTzFF",
+          "firstReplyTime": "00 分钟 08 秒",
+          "id": 40850,
+          "modified": "2020-01-23 14:03:41",
+          "patientName": "张湃朋",
+          "patientPin": "猫猫小果1",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300074,
+          "departmentName": "神经内科",
+          "diagFinishTime": "2020-01-22 22:22:03",
+          "diagId": 2096530985844,
+          "diagType": "极速问诊",
+          "doctorId": 171010058024,
+          "doctorName": "潘来生",
+          "doctorPin": "jd_66d5bb57b4663",
+          "firstReplyTime": "00 分钟 07 秒",
+          "id": 40905,
+          "modified": "2020-01-23 11:05:13",
+          "patientName": "刘同",
+          "patientPin": "jd_68dfe50cbf20a",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300076,
+          "departmentName": "肾病内科",
+          "diagFinishTime": "2020-01-22 21:42:28",
+          "diagId": 2096531002905,
+          "diagType": "极速问诊",
+          "doctorId": 230710606466,
+          "doctorName": "侯波",
+          "doctorPin": "herohb",
+          "firstReplyTime": "00 分钟 25 秒",
+          "id": 40849,
+          "modified": "2020-01-23 14:08:08",
+          "patientName": "杨劲涛",
+          "patientPin": "yangjintao333",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300072,
+          "departmentName": "呼吸内科",
+          "diagFinishTime": "2020-01-22 19:32:58",
+          "diagId": 2096530990063,
+          "diagType": "极速问诊",
+          "doctorId": 195910264003,
+          "doctorName": "张建立",
+          "doctorPin": "zjl0991",
+          "firstReplyTime": "00 分钟 11 秒",
+          "id": 40888,
+          "modified": "2020-01-23 11:47:50",
+          "patientName": "蒲旭",
+          "patientPin": "15183813670_p",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300016,
+          "departmentName": "小儿内科",
+          "diagFinishTime": "2020-01-22 16:45:58",
+          "diagId": 2096530958632,
+          "diagType": "极速问诊",
+          "doctorId": 171010062019,
+          "doctorName": "孔令飞",
+          "doctorPin": "jd_66e897845819e",
+          "firstReplyTime": "00 分钟 04 秒",
+          "id": 40895,
+          "modified": "2020-01-23 14:05:23",
+          "patientName": "田博宇",
+          "patientPin": "114665488-235067",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300090,
+          "departmentName": "脊柱科",
+          "diagFinishTime": "2020-01-22 14:23:46",
+          "diagId": 2096530947424,
+          "diagType": "极速问诊",
+          "doctorId": 224210584183,
+          "doctorName": "刘港",
+          "doctorPin": "18580104517_p",
+          "firstReplyTime": "00 分钟 06 秒",
+          "id": 40989,
+          "modified": "2020-01-23 11:42:55",
+          "patientName": "蒲尊玉",
+          "patientPin": "yuyu9998",
+          "status": 1
+        },
+        {
+          "auditPin": "yanjie40",
+          "auditResultStatus": "合格",
+          "created": "2020-01-23 07:00:27",
+          "departmentCode": 7300072,
+          "departmentName": "呼吸内科",
+          "diagFinishTime": "2020-01-22 13:54:42",
+          "diagId": 2096530961803,
+          "diagType": "极速问诊",
+          "doctorId": 238010686815,
+          "doctorName": "吴颖",
+          "doctorPin": "jd_czdpPTeHDEKP",
+          "firstReplyTime": "00 分钟 14 秒",
+          "id": 40997,
+          "modified": "2020-01-23 11:34:55",
+          "patientName": "倪镭",
+          "patientPin": "jd_652469dd65d08",
+          "status": 1
+        }
+      ],
+      "nextPage": 2,
+      "offset": 0,
+      "pageNo": 1,
+      "pageSize": 10,
+      "previousPage": 1,
+      "totalCount": 92,
+      "totalPage": 10
+    }
+  },
+  "msg": "OK",
+  "success": true
+}

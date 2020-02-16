@@ -11,8 +11,10 @@
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- 加载配置文件 -->
-    <context:property-placeholder location="classpath:application.properties" ignore-unresolvable="true"/>
+    <!-- 加载配置文件,注意这里是spring父容器配置文件路径，在spring MVC子容器层用@Value取不到指，因为不扫描@Controller注解 -->
+    <context:property-placeholder
+            location="classpath:common.properties,classpath:application-${profiles.active}.properties"
+            ignore-unresolvable="true"/>
 
     <!-- 开启 @Required、@Autowired、@PostConstruct、 @PreDestroy、@Resource等JSR250标准中的注解 -->
     <context:annotation-config/>
@@ -23,7 +25,7 @@
     </context:component-scan>
 
     <!--开启spring MVC高级功能,如参数解析器、处理映射器等 -->
-<!--    <mvc:annotation-driven />-->
+    <!--    <mvc:annotation-driven />-->
 
     <!-- 开启基于注解的事务驱动，开启@Transactional注解 -->
     <tx:annotation-driven transaction-manager="transactionManager"/>
